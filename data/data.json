@@ -1,0 +1,213 @@
+[
+   {
+     "name": "Heaven Suite",
+     "price": 100,
+     "location": "New York",
+     "img": "/img/1.jpeg",
+     "description": "Heaven Suite - all the best in the city of New York, with the best hotel in the world"
+   },
+   {
+     "name": "Ocean View Paradise",
+     "price": 150,
+     "location": "Miami",
+     "img": "/img/2.jpeg",
+     "description": "Ocean View Paradise - enjoy the breathtaking ocean views from this luxury suite in Miami."
+   },
+   {
+     "name": "Desert Oasis",
+     "price": 120,
+     "location": "Las Vegas",
+     "img": "/img/3.jpeg",
+     "description": "Desert Oasis - a quiet and luxurious getaway in the heart of Las Vegas."
+   },
+   {
+     "name": "Mountain Retreat",
+     "price": 130,
+     "location": "Aspen",
+     "img": "/img/4.jpeg",
+     "description": "Mountain Retreat - perfect for nature lovers, nestled in the mountains of Aspen."
+   },
+   {
+     "name": "City Life Loft",
+     "price": 110,
+     "location": "Chicago",
+     "img": "/img/5.jpeg",
+     "description": "City Life Loft - experience the vibrancy of downtown Chicago in this chic urban loft."
+   },
+   {
+     "name": "Seaside Escape",
+     "price": 140,
+     "location": "Los Angeles",
+     "img": "/img/6.jpeg",
+     "description": "Seaside Escape - a beachfront property in LA for a relaxing stay by the sea."
+   },
+   {
+     "name": "Penthouse Perfection",
+     "price": 200,
+     "location": "New York",
+     "img": "/img/7.jpeg",
+     "description": "Penthouse Perfection - a luxury penthouse with a view over the entire city of New York."
+   },
+   {
+     "name": "Cottage Charm",
+     "price": 90,
+     "location": "Nashville",
+     "img": "/img/8.jpeg",
+     "description": "Cottage Charm - a cozy cottage nestled in the heart of Nashville's music scene."
+   },
+   {
+     "name": "Downtown Haven",
+     "price": 180,
+     "location": "San Francisco",
+     "img": "/img/9.jpeg",
+     "description": "Downtown Haven - an urban apartment located in the heart of San Francisco."
+   },
+   {
+     "name": "Forest Hideaway",
+     "price": 95,
+     "location": "Seattle",
+     "img": "/img/10.jpeg",
+     "description": "Forest Hideaway - a peaceful retreat in the lush forests of Seattle."
+   },
+   {
+     "name": "Skyline View",
+     "price": 170,
+     "location": "Dallas",
+     "img": "/img/11.jpeg",
+     "description": "Skyline View - modern apartment with stunning skyline views in downtown Dallas."
+   },
+   {
+     "name": "Sunny Beach House",
+     "price": 160,
+     "location": "San Diego",
+     "img": "/img/12.jpeg",
+     "description": "Sunny Beach House - a bright and spacious house right by the sunny beaches of San Diego."
+   },
+   {
+     "name": "Modern Studio",
+     "price": 80,
+     "location": "Austin",
+     "img": "/img/13.jpeg",
+     "description": "Modern Studio - minimalist design in the vibrant city of Austin."
+   },
+   {
+     "name": "Luxury Villa",
+     "price": 300,
+     "location": "Malibu",
+     "img": "/img/14.jpeg",
+     "description": "Luxury Villa - enjoy the ultimate luxury at this villa in Malibu with private beach access."
+   },
+   {
+     "name": "Rooftop Retreat",
+     "price": 210,
+     "location": "New York",
+     "img": "/img/15.jpeg",
+     "description": "Rooftop Retreat - a beautiful apartment with a rooftop view over New York City."
+   },
+   {
+     "name": "Art Deco Flat",
+     "price": 125,
+     "location": "Miami",
+     "img": "/img/16.jpeg",
+     "description": "Art Deco Flat - stylish and modern flat located in Miami's famous Art Deco district."
+   },
+   {
+     "name": "Suburban Escape",
+     "price": 100,
+     "location": "Phoenix",
+     "img": "/img/17.jpeg",
+     "description": "Suburban Escape - a quiet retreat in the suburbs of Phoenix."
+   },
+   {
+     "name": "Countryside Cottage",
+     "price": 115,
+     "location": "Vermont",
+     "img": "/img/18.jpeg",
+     "description": "Countryside Cottage - rustic charm in the peaceful countryside of Vermont."
+   },
+   {
+     "name": "Urban Studio",
+     "price": 110,
+     "location": "Boston",
+     "img": "/img/19.jpeg",
+     "description": "Urban Studio - small but sleek studio in the heart of Boston."
+   },
+   {
+     "name": "Historic Apartment",
+     "price": 130,
+     "location": "Philadelphia",
+     "img": "/img/20.jpeg",
+     "description": "Historic Apartment - charming apartment located in the historic district of Philadelphia."
+   },
+   {
+     "name": "Seaview Suite",
+     "price": 250,
+     "location": "Miami",
+     "img": "/img/21.jpeg",
+     "description": "Seaview Suite - luxury suite with stunning views of the sea in Miami."
+   },
+   {
+     "name": "Mountain Cabin",
+     "price": 140,
+     "location": "Colorado Springs",
+     "img": "/img/22.jpeg",
+     "description": "Mountain Cabin - cozy and rustic cabin nestled in the Colorado mountains."
+   },
+   {
+     "name": "Lakeside Getaway",
+     "price": 160,
+     "location": "Lake Tahoe",
+     "img": "/img/23.jpeg",
+     "description": "Lakeside Getaway - picturesque house on the shore of Lake Tahoe."
+   },
+   {
+     "name": "City Center Loft",
+     "price": 195,
+     "location": "San Francisco",
+     "img": "/img/24.jpeg",
+     "description": "City Center Loft - a modern loft located in the heart of San Francisco."
+   },
+   {
+     "name": "Desert Dream",
+     "price": 175,
+     "location": "Sedona",
+     "img": "/img/25.jpeg",
+     "description": "Desert Dream - a stunning desert retreat in the red rocks of Sedona."
+   },
+   {
+     "name": "The River House",
+     "price": 120,
+     "location": "Sacramento",
+     "img": "/img/26.jpeg",
+     "description": "The River House - peaceful house by the river in Sacramento."
+   },
+   {
+     "name": "Oceanfront Bungalow",
+     "price": 200,
+     "location": "Santa Monica",
+     "img": "/img/27.jpeg",
+     "description": "Oceanfront Bungalow - private bungalow right on the beach in Santa Monica."
+   },
+   {
+     "name": "Vintage Flat",
+     "price": 110,
+     "location": "Portland",
+     "img": "/img/28.jpeg",
+     "description": "Vintage Flat - stylish flat with vintage decor in the heart of Portland."
+   },
+   {
+     "name": "Luxury Condo",
+     "price": 230,
+     "location": "Honolulu",
+     "img": "/img/29.jpeg",
+     "description": "Luxury Condo - experience luxury living in this high-end condo in Honolulu."
+   },
+   {
+     "name": "Countryside Manor",
+     "price": 300,
+     "location": "Vermont",
+     "img": "/img/30.jpeg",
+     "description": "Countryside Manor - an elegant manor house in the quiet countryside of Vermont."
+   }
+ ]
+ 
