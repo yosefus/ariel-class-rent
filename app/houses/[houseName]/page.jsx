@@ -1,10 +1,14 @@
 
 import data from '@/data/data.json';
+import { notFound } from 'next/navigation';
 
 export default function House({ params: { houseName } }) {
    const currentHouse = data.find(house => house.name === decodeURI(houseName))
-console.log(currentHouse);
    
+   if (!currentHouse) { 
+        notFound()
+   }
+
   return (
      <div>
         <h1>{currentHouse.name}</h1>
