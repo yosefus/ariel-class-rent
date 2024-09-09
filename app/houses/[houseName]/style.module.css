@@ -1,0 +1,29 @@
+.loading{
+   animation: pulse 2s infinite;
+}
+
+.loading h1{
+   height: 3rem;
+   background-color: grey;
+   border-radius:10px;
+   margin-top: 1rem;
+   width: 200px;
+}
+
+.loading p{
+   height: 1rem;
+   border-radius:10px;
+   margin-top: 1.5rem;
+   background-color: grey;
+   width: 500px;
+}
+
+@keyframes pulse {
+   0%, 100%{
+      opacity: 1;
+   }
+   50%{
+      opacity: 50%;
+   }
+}
+

@@ -1,0 +1,73 @@
+[
+   {
+     "name": "Yossi Levi",
+     "title": "Marketing Manager",
+     "email": "yossi.levi@example.com",
+     "tel": "+972-50-123-4567",
+     "img": "/partners/1.webp"
+   },
+   {
+     "name": "Ruth Cohen",
+     "title": "CFO",
+     "email": "ruth.cohen@example.com",
+     "tel": "+972-52-765-4321",
+     "img": "/partners/2.webp"
+   },
+   {
+     "name": "David Mizrahi",
+     "title": "Business Development Manager",
+     "email": "david.mizrahi@example.com",
+     "tel": "+972-54-789-6543",
+     "img": "/partners/3.webp"
+   },
+   {
+     "name": "Sarah Abraham",
+     "title": "HR Manager",
+     "email": "sarah.abraham@example.com",
+     "tel": "+972-53-321-9876",
+     "img": "/partners/4.webp"
+   },
+   {
+     "name": "Ilan Cohen",
+     "title": "CEO",
+     "email": "ilan.cohen@example.com",
+     "tel": "+972-55-987-1234",
+     "img": "/partners/5.webp"
+   },
+   {
+     "name": "Efrat Levi",
+     "title": "Sales Manager",
+     "email": "efrat.levi@example.com",
+     "tel": "+972-51-654-9870",
+     "img": "/partners/6.webp"
+   },
+   {
+     "name": "Moshe Ben David",
+     "title": "Project Manager",
+     "email": "moshe.ben-david@example.com",
+     "tel": "+972-52-456-7890",
+     "img": "/partners/7.webp"
+   },
+   {
+     "name": "Hana Levi",
+     "title": "Digital Marketing Manager",
+     "email": "hana.levi@example.com",
+     "tel": "+972-50-147-2580",
+     "img": "/partners/8.webp"
+   },
+   {
+     "name": "Yoel Cohen",
+     "title": "Legal Advisor",
+     "email": "yoel.cohen@example.com",
+     "tel": "+972-53-963-8521",
+     "img": "/partners/9.webp"
+   },
+   {
+     "name": "Miriam Berkovich",
+     "title": "R&D Manager",
+     "email": "miriam.berkovich@example.com",
+     "tel": "+972-54-741-3698",
+     "img": "/partners/10.webp"
+   }
+ ]
+ 

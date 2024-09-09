@@ -2,6 +2,7 @@
 import LoginBtn from "@/components/LoginBtn";
 import styles from "./page.module.css";
 import data from '@/data/data.json';
+import dataP from '@/data/partners.json';
 import Link from "next/link";
 import { connectToMongo } from "@/server/connect";
 import { readHousesService } from "@/server/BL/service/house.service";
@@ -25,7 +26,6 @@ export default async function Home() {
             </Link>
           </li>))}
       </ul>
-
     </div>
   );
 }
