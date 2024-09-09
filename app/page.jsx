@@ -1,31 +1,28 @@
 
-import LoginBtn from "@/components/LoginBtn";
+import SearchBar from "@/components/SearchBar";
+import { Suspense } from "react";
 import styles from "./page.module.css";
-import data from '@/data/data.json';
-import dataP from '@/data/partners.json';
-import Link from "next/link";
-import { connectToMongo } from "@/server/connect";
-import { readHousesService } from "@/server/BL/service/house.service";
+import ListHouses from "@/components/ListHouses";
 // import { unstable_noStore } from "next/cache";
 
-export default async function Home() {
-  await connectToMongo()
-  const list = await readHousesService(data)
-  
+export default async function Home({ searchParams: { searchBy } }) {
+
+  //   if (!list.length) {
+  //     await createHouseService(data)
+  //   }
+  // console.log(list);
+
   // unstable_noStore()
   return (
-    <div className={styles.page}>
+    <div className={styles.page} >
       Home
-      <LoginBtn />
-      <ul>
-        {list.map((house) => (
-          <li key={house._id}>
-            <Link href={`/houses/${house.name}`}>
-              {house.name}
-              <img src={house.img} width={20} alt="" />
-            </Link>
-          </li>))}
-      </ul>
+      <section>
+        <h2>all houses</h2>
+        <SearchBar />
+        <Suspense key={searchBy} fallback={<p>loading...</p>}>
+          <ListHouses searchBy={searchBy} />
+        </Suspense>
+      </section>
     </div>
   );
 }

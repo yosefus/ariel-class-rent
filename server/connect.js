@@ -9,7 +9,7 @@ export const connectToMongo = async () => {
          console.log("MongoDB error!");
          console.log(error.message);
       }
-   } else {  
+   } else {
       console.log("MongoDB already connected!");
    }
 }

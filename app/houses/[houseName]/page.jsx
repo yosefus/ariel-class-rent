@@ -6,15 +6,15 @@ import { connectToMongo } from '@/server/connect';
 import { notFound } from 'next/navigation';
 
 
-export async function generateStaticParams() {
-   await connectToMongo()
-   const allHouses = await readHousesService()
-   return allHouses.map(house => ({ houseName: house.name }))
-}
+// export async function generateStaticParams() {
+//    await connectToMongo()
+//    const allHouses = await readHousesService()
+//    return allHouses.map(house => ({ houseName: house.name }))
+// }
 
 export default async function House({ params: { houseName } }) {
    await connectToMongo()
-   await wait()
+   // await wait()
    
    const currentHouse = await readHouseService({name: decodeURI(houseName)})
 
