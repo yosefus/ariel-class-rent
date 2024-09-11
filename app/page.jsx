@@ -17,7 +17,7 @@ export default async function Home({ searchParams: { searchBy } }) {
     <div className={styles.page} >
       Home
       <section>
-        <h2>all houses</h2>
+        <h2>all houses &deg;</h2>
         <SearchBar />
         <Suspense key={searchBy} fallback={<p>loading...</p>}>
           <ListHouses searchBy={searchBy} />

@@ -13,7 +13,7 @@ export default function Header() {
               <Link href='/about'>About</Link>
            </li>
            <li>
-              <Link href='/about/me'>Me</Link>
+              <Link href='/create'>create</Link>
            </li>
         </ul>
     </header>

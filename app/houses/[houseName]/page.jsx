@@ -7,11 +7,11 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 
-// export async function generateStaticParams() {
-//    await connectToMongo()
-//    const allHouses = await readHousesService()
-//    return allHouses.map(house => ({ houseName: house.name }))
-// }
+export async function generateStaticParams() {
+   await connectToMongo()
+   const allHouses = await readHousesService()
+   return allHouses.map(house => ({ houseName: house.name }))
+}
 
 export const generateMetadata = async ({ params: { houseName } }) => {
    await connectToMongo()
