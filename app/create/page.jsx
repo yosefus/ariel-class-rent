@@ -1,5 +1,4 @@
 import HouseForm from '@/components/HouseForm'
-import React from 'react'
 
 export default function page() {
    return (
